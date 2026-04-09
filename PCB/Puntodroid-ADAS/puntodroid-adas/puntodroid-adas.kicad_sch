@@ -48,6 +48,90 @@
 		)
 	)
 	(sheet
+		(at 117.475 78.105)
+		(size 35.56 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "331fda74-f07a-44e8-adb6-d21af4847821")
+		(property "Sheetname" "POWER"
+			(at 117.475 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "puntodroid-power.kicad_sch"
+			(at 117.475 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.975 78.105)
+		(size 35.56 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fb622c5-2309-48f8-8ec8-1b99fc8c9e6b")
+		(property "Sheetname" "CAN INTERFACE"
+			(at 53.975 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pundodroid-adas-can.kicad_sch"
+			(at 53.975 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 117.475 36.195)
 		(size 35.56 28.575)
 		(exclude_from_sim no)
@@ -85,6 +169,48 @@
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.975 113.03)
+		(size 35.56 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7f6453c-9930-4ee9-995f-ac357768c1b9")
+		(property "Sheetname" "RADIO RFM69"
+			(at 53.975 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "puntodroid-radio.kicad_sch"
+			(at 53.975 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b"
+					(page "6")
 				)
 			)
 		)

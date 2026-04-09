@@ -420,6 +420,18 @@
     [
       "aecbce2e-c462-47bf-9d56-593a347ba1f4",
       "CAMERA"
+    ],
+    [
+      "8fb622c5-2309-48f8-8ec8-1b99fc8c9e6b",
+      "CAN INTERFACE"
+    ],
+    [
+      "331fda74-f07a-44e8-adb6-d21af4847821",
+      "POWER"
+    ],
+    [
+      "c7f6453c-9930-4ee9-995f-ac357768c1b9",
+      "RADIO RFM69"
     ]
   ],
   "text_variables": {}

@@ -4854,6 +4854,26 @@
 		)
 		(uuid "aa134c67-cce6-43b4-a764-09d3b6f9155f")
 	)
+	(text "CAN1_RX"
+		(exclude_from_sim no)
+		(at 157.226 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aea0e5ef-f35c-483c-b84c-44c9849d40c5")
+	)
+	(text "CAN1_TX"
+		(exclude_from_sim no)
+		(at 156.972 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af171d16-4adb-4a04-a2a6-cd6c9978628f")
+	)
 	(text "USB SOCKET"
 		(exclude_from_sim no)
 		(at 329.184 20.066 0)
@@ -7367,30 +7387,6 @@
 			)
 		)
 	)
-	(global_label "PE8_UNUSED"
-		(shape input)
-		(at 356.87 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 255 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "1e27b2b6-56e6-4788-85e4-e87f4d8c0ac5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 384.81 52.07 0)
@@ -7409,6 +7405,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAMERA_FRONT_EN"
+		(shape input)
+		(at 149.86 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "217a2fea-fe7f-443e-a677-fde5c2339f65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.1705 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7694,30 +7712,6 @@
 			)
 		)
 	)
-	(global_label "PE9_UNUSED"
-		(shape input)
-		(at 356.87 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 255 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "4263a7b7-e7a4-4e76-9b76-7e82938b1130")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PD14_UNUSED"
 		(shape input)
 		(at 356.87 189.23 180)
@@ -7808,30 +7802,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PE8_UNUSED"
-		(shape input)
-		(at 149.86 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 255 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "4efd3f8d-d9ec-41f0-91ae-ca8ce20ac0b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1827 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8091,7 +8061,7 @@
 	)
 	(global_label "PE14_UNUSED"
 		(shape input)
-		(at 356.87 158.75 180)
+		(at 356.87 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8103,7 +8073,7 @@
 		)
 		(uuid "5fdef29d-cf5a-4f26-86f2-00e25f8ba19d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 158.75 0)
+			(at 341.1927 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8369,7 @@
 	)
 	(global_label "P10_UNUSED"
 		(shape input)
-		(at 356.87 148.59 180)
+		(at 356.87 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8411,7 +8381,7 @@
 		)
 		(uuid "796d3c93-2c68-4fa3-830e-d2091393d421")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 148.59 0)
+			(at 341.1927 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,30 +8528,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PE9_UNUSED"
-		(shape input)
-		(at 149.86 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 255 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "87f9b0da-39f6-47a1-931f-6471a942aa6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1827 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9166,7 +9112,7 @@
 	)
 	(global_label "PE13_UNUSED"
 		(shape input)
-		(at 356.87 156.21 180)
+		(at 356.87 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9178,7 +9124,7 @@
 		)
 		(uuid "b9110eef-7ccf-4fa3-8e7d-ad4b62f4bd7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 156.21 0)
+			(at 341.1927 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,6 +9148,28 @@
 		(uuid "b977f641-37b8-4004-9604-c0418507841e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.2267 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAMERA_BACK_EN"
+		(shape input)
+		(at 149.86 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc180c66-dfb3-4e20-a735-2804c3c13ebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.2439 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9227,7 @@
 	)
 	(global_label "PE12_UNUSED"
 		(shape input)
-		(at 356.87 153.67 180)
+		(at 356.87 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9271,7 +9239,7 @@
 		)
 		(uuid "c2967dfc-b5a7-4522-abac-8fed38842e17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 153.67 0)
+			(at 341.1927 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9554,7 @@
 	)
 	(global_label "PE11_UNUSED"
 		(shape input)
-		(at 356.87 151.13 180)
+		(at 356.87 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9598,7 +9566,7 @@
 		)
 		(uuid "e59702b6-446a-4bce-a5ff-9d0c598bafa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.1927 151.13 0)
+			(at 341.1927 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
