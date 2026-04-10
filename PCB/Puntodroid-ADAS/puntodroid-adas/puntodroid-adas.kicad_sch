@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 116.84 115.062)
+		(size 35.56 23.876)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "645bba70-0751-4ee4-b735-33616e090d4a")
+		(property "Sheetname" "CONNECTORS"
+			(at 116.84 114.3504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "puntodroid-connectors.kicad_sch"
+			(at 116.84 139.5226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.975 78.105)
 		(size 35.56 26.035)
 		(exclude_from_sim no)

@@ -28,3 +28,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+/PCB/Puntodroid-ADAS/puntodroid-adas/puntodroid-adas-backups

@@ -432,6 +432,10 @@
     [
       "c7f6453c-9930-4ee9-995f-ac357768c1b9",
       "RADIO RFM69"
+    ],
+    [
+      "645bba70-0751-4ee4-b735-33616e090d4a",
+      "CONNECTORS"
     ]
   ],
   "text_variables": {}
