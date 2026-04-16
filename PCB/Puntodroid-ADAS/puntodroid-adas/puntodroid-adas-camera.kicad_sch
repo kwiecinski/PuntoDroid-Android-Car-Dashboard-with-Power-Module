@@ -1247,7 +1247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_3_Tee"
+		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1259,15 +1259,15 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "NT"
-				(at 0 3.175 0)
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "NetTie_3_Tee"
-				(at 0 1.27 0)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Net tie, 3 pins, tee"
+			(property "Description" "Net tie, 2 pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1319,46 +1319,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "NetTie_3_Tee_0_1"
+			(symbol "NetTie_2_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1369,7 +1333,7 @@
 					)
 				)
 			)
-			(symbol "NetTie_3_Tee_1_1"
+			(symbol "NetTie_2_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -1381,24 +1345,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3805,7 +3751,7 @@
 	)
 	(text "VIDEO BUFFER"
 		(exclude_from_sim no)
-		(at 113.538 32.004 0)
+		(at 146.558 32.004 0)
 		(effects
 			(font
 				(size 3 3)
@@ -3932,6 +3878,18 @@
 		(uuid "eb718fe4-63f3-4a8b-ad69-d942303e05e4")
 	)
 	(junction
+		(at 134.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0225a408-2d9a-4002-86d2-5ba7a218ba05")
+	)
+	(junction
+		(at 95.25 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a843fe-5fc8-4bc2-85a5-a24ce401adb3")
+	)
+	(junction
 		(at 87.63 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4020,6 +3978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8f9a8b-f1a6-4a7b-8b3d-2a1a2448fb30")
+	)
+	(junction
+		(at 95.25 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc58df37-3992-4b8a-ac86-ca252f9b2b21")
 	)
 	(junction
 		(at 200.66 64.77)
@@ -4223,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 95.25) (xy 95.25 102.87)
+			(xy 95.25 95.25) (xy 95.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4403,16 +4367,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 55.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf4128c-a67b-4dd4-82a2-e4071c6c0a8c")
-	)
-	(wire
-		(pts
 			(xy 237.49 53.34) (xy 237.49 64.77)
 		)
 		(stroke
@@ -4440,6 +4394,16 @@
 			(type default)
 		)
 		(uuid "41d12588-0628-409b-9cdf-c70bd5a9aa86")
+	)
+	(wire
+		(pts
+			(xy 95.25 99.06) (xy 100.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d47b3c-db2e-4384-9e45-698bea9fb3ce")
 	)
 	(wire
 		(pts
@@ -4553,6 +4517,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 149.86) (xy 207.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eae32aa-29e6-4d30-a92a-04057fc1b6cb")
+	)
+	(wire
+		(pts
 			(xy 67.31 64.77) (xy 59.69 64.77)
 		)
 		(stroke
@@ -4580,6 +4554,16 @@
 			(type default)
 		)
 		(uuid "60ae4081-b442-4478-9626-b3284a90fe72")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e0f3ec-e08b-4166-b3a1-e22668378d4e")
 	)
 	(wire
 		(pts
@@ -4623,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 134.62 76.2)
+			(xy 134.62 34.29) (xy 134.62 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4813,6 +4797,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 99.06) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9520903-892f-40a4-8076-95239b04c290")
+	)
+	(wire
+		(pts
 			(xy 120.65 157.48) (xy 120.65 160.02)
 		)
 		(stroke
@@ -4833,7 +4827,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 83.82) (xy 279.4 57.15)
+			(xy 279.4 46.99) (xy 279.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4880,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "b545ad9c-d20c-4c6c-bf19-c7274e144aa4")
+	)
+	(wire
+		(pts
+			(xy 199.39 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b13870-f2fb-4464-b722-dbbe4bf3b314")
 	)
 	(wire
 		(pts
@@ -4963,16 +4967,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 116.84) (xy 66.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b63521-9180-484c-981c-957fcf61d89e")
-	)
-	(wire
-		(pts
 			(xy 279.4 83.82) (xy 279.4 88.9)
 		)
 		(stroke
@@ -5013,6 +5007,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 35.56) (xy 127.254 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c904effd-0ae7-455a-967a-c1b190a13cb2")
+	)
+	(wire
+		(pts
 			(xy 292.1 83.82) (xy 292.1 86.36)
 		)
 		(stroke
@@ -5030,6 +5034,16 @@
 			(type default)
 		)
 		(uuid "cce00005-465a-4739-8836-bfe739f7de7b")
+	)
+	(wire
+		(pts
+			(xy 212.09 154.94) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda9867a-383c-4c6f-89c2-164d1f1196a7")
 	)
 	(wire
 		(pts
@@ -5123,6 +5137,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 35.56) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8f84f0-2698-48eb-8743-19ce5ebc1adb")
+	)
+	(wire
+		(pts
 			(xy 218.44 91.44) (xy 242.57 91.44)
 		)
 		(stroke
@@ -5170,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "ea42cb1d-9537-4a47-95fb-347656d8efcf")
+	)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5327c4-62aa-4af7-a12d-955ee32fe3f2")
 	)
 	(wire
 		(pts
@@ -5482,7 +5516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06942d44-892d-4cef-957a-1a4e30d960cd")
-		(property "Reference" "R24"
+		(property "Reference" "R7"
 			(at 76.454 174.752 90)
 			(effects
 				(font
@@ -5498,7 +5532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.2 177.292 90)
 			(effects
 				(font
@@ -5534,7 +5568,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R24")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5549,7 +5583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "120493b5-1a3f-44c2-a352-92df6148284e")
-		(property "Reference" "R23"
+		(property "Reference" "R6"
 			(at 61.214 163.068 0)
 			(effects
 				(font
@@ -5565,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 66.548 163.83 90)
 			(effects
 				(font
@@ -5601,7 +5635,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R23")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5693,7 +5727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f40bf18-0a21-4172-80d3-4c79dce397fc")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 289.306 59.69 90)
 			(effects
 				(font
@@ -5709,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 289.56 64.77 0)
 			(effects
 				(font
@@ -5745,7 +5779,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5760,7 +5794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "204ed352-ac38-4d78-9dde-4f27dfa573d1")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 246.634 60.96 0)
 			(effects
 				(font
@@ -5776,7 +5810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 			(at 256.54 77.47 0)
 			(effects
 				(font
@@ -5890,7 +5924,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5905,7 +5939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "208e52e8-2cde-4c83-adda-e7e1a7111ec5")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 185.42 66.04 90)
 			(effects
 				(font
@@ -5921,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 185.42 71.628 90)
 			(effects
 				(font
@@ -5957,7 +5991,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5973,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d7ea0c-ba49-4ddf-a77c-446e286e2e9a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -6023,7 +6057,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a9d13f0-8b54-495a-a77e-8530e0120c05")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 101.854 75.438 0)
 			(effects
 				(font
@@ -6054,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 107.188 76.2 90)
 			(effects
 				(font
@@ -6090,7 +6124,74 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R14")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 127.254 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c862689-19ea-49d1-975c-64c6786df03d")
+		(property "Reference" "#PWR025"
+			(at 127.254 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 127.254 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 127.254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2681ac8a-4c55-43d4-9fd4-9ba5e396cb97")
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fcf083b-cf0f-4071-aedf-0e3b55e84430")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR022"
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -6156,7 +6257,74 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR031")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31a09236-4c38-4cca-9b4a-ffc22bca0902")
+		(property "Reference" "C13"
+			(at 105.156 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 105.664 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 99.3648 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a3465e6-5340-423a-8136-66b8f71df318")
+		)
+		(pin "1"
+			(uuid "653ffd07-f311-42d1-8636-1b4bff0c827a")
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3702dd00-43d9-483a-805f-11b19e73b518")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR017"
 			(at 54.61 157.48 0)
 			(effects
 				(font
@@ -6222,7 +6390,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR046")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0c2035-e0c6-4a50-8832-87114749956f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 285.75 107.95 0)
 			(effects
 				(font
@@ -6288,7 +6456,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce7f4d6-deab-4a26-add3-77e1a474e182")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR034"
 			(at 241.3 119.38 0)
 			(effects
 				(font
@@ -6354,7 +6522,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR054")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db28be7-e30e-4660-87ac-a0ba3af99a06")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR032"
 			(at 231.14 119.38 0)
 			(effects
 				(font
@@ -6420,7 +6588,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR053")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6512,7 +6680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42302430-c8eb-40bf-8a00-7eead72aa62d")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 45.72 63.7931 0)
 			(effects
 				(font
@@ -6569,7 +6737,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6584,7 +6752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45e7c121-a66e-478e-a4de-c10043e25e71")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 185.42 59.69 90)
 			(effects
 				(font
@@ -6600,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 185.42 65.278 90)
 			(effects
 				(font
@@ -6636,7 +6804,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45fef014-21b5-43f5-b236-1595abd5a09b")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 302.514 59.436 0)
 			(effects
 				(font
@@ -6705,73 +6873,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 49.53 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bdd0fc9-775a-4065-a5e3-3a29ce235484")
-		(property "Reference" "#PWR022"
-			(at 49.53 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDV"
-			(at 49.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba9d44c8-519e-447d-833a-a2350ebfec76")
-		)
-		(instances
-			(project "puntodroid-adas"
-				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR022")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6787,7 +6889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "594f6a2c-e8e1-4a21-b7c9-061062df8ab0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 200.66 88.9 0)
 			(effects
 				(font
@@ -6837,7 +6939,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e380d9e-ed63-45d4-9df7-a8f8a9cbc0c0")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR035"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -6903,7 +7005,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR057")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6918,7 +7020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6163af2c-312e-4619-a24c-d6b82a35ba6c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR042"
 			(at 309.88 76.2 0)
 			(effects
 				(font
@@ -6968,7 +7070,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR020")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6984,7 +7086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6607d218-971a-4947-ad0e-f57a9e849105")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR037"
 			(at 251.46 129.54 0)
 			(effects
 				(font
@@ -7034,7 +7136,75 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR058")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127.254 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "682f4265-eb64-46f8-a451-825896e79652")
+		(property "Reference" "C14"
+			(at 122.428 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.92 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 128.2192 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127.254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90049331-927b-4edd-838a-80c2ca5a3c2a")
+		)
+		(pin "1"
+			(uuid "617778af-1bb8-42e0-b15d-7260ea55b843")
+		)
+		(instances
+			(project "puntodroid-adas"
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7042,16 +7212,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 95.25 102.87 0)
+		(at 95.25 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6cbf38cc-62ec-421d-9042-31e8573f4d2a")
-		(property "Reference" "#PWR016"
-			(at 95.25 109.22 0)
+		(property "Reference" "#PWR021"
+			(at 95.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7229,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 95.25 107.95 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 95.25 102.87 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +7269,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7108,16 +7277,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 134.62 53.34 0)
+		(at 134.62 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d831221-7556-4eb7-92a1-f9624bd6bb49")
-		(property "Reference" "#PWR024"
-			(at 134.62 57.15 0)
+		(property "Reference" "#PWR026"
+			(at 134.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7294,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 134.62 48.26 0)
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 53.34 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 53.34 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 53.34 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7334,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "780b800e-4393-434b-b085-0ac88c8729e5")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 156.21 45.72 90)
 			(effects
 				(font
@@ -7197,7 +7365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.21 51.308 90)
 			(effects
 				(font
@@ -7233,7 +7401,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7241,15 +7409,15 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 49.53 119.38 180)
+		(at 199.39 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd49363-68f9-45c6-85c5-624446f0e934")
-		(property "Reference" "FB3"
-			(at 45.72 118.872 0)
+		(property "Reference" "FB1"
+			(at 195.58 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7425,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 42.418 120.904 0)
+			(at 192.278 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 51.308 119.38 90)
+			(at 201.168 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 119.38 0)
+			(at 199.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7451,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 49.53 119.38 0)
+			(at 199.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7468,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "FB3")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -7315,7 +7483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a7ff2d-77c1-403d-b6b0-97b4cbc95558")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 245.872 118.11 0)
 			(effects
 				(font
@@ -7331,7 +7499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 252.4252 123.19 0)
 			(effects
 				(font
@@ -7367,7 +7535,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85cc0713-975a-4d47-9775-0d1dc1819f8a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR024"
 			(at 120.65 190.5 0)
 			(effects
 				(font
@@ -7433,7 +7601,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR051")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86204d88-79a6-4187-8a67-0e1dc7ef8d7c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 49.53 78.74 0)
 			(effects
 				(font
@@ -7499,7 +7667,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7530,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 203.2 65.7352 0)
 			(effects
 				(font
@@ -7581,7 +7749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b800ac3-6ed8-4b32-bcd4-09b30a563eff")
-		(property "Reference" "FB1"
+		(property "Reference" "FB2"
 			(at 283.464 87.63 90)
 			(effects
 				(font
@@ -7633,7 +7801,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -7648,7 +7816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ccd8c62-1e02-455f-a189-cc23001132d2")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 197.104 76.708 0)
 			(effects
 				(font
@@ -7664,7 +7832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 202.438 77.47 90)
 			(effects
 				(font
@@ -7700,7 +7868,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7716,7 +7884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934163a2-0811-4ae3-88fd-d454f7df01aa")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 279.4 107.95 0)
 			(effects
 				(font
@@ -7766,7 +7934,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7781,7 +7949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93715b28-fa3a-4afe-98ff-1f92d076cdc8")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 283.21 70.358 90)
 			(effects
 				(font
@@ -7797,7 +7965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 283.21 67.31 0)
 			(effects
 				(font
@@ -7833,7 +8001,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7848,7 +8016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f0870e3-07e0-44cf-9845-d1319325cfe9")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 221.742 84.074 0)
 			(effects
 				(font
@@ -7864,7 +8032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 220.218 82.55 90)
 			(effects
 				(font
@@ -7900,7 +8068,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7915,7 +8083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f649b2a-29b8-40e8-b8ea-33117ee69f87")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 143.51 59.944 0)
 			(effects
 				(font
@@ -8003,78 +8171,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_3_Tee")
-		(at 58.42 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a192babd-f03a-4c8e-87c8-45e8a145d0f8")
-		(property "Reference" "NT2"
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIDEO_GND_NETTIE"
-			(at 58.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 3 pins, tee"
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c7b88d6-d712-4bf1-bac4-aaf69354f49d")
-		)
-		(pin "2"
-			(uuid "54675033-ad92-42c0-a217-ba846ec79698")
-		)
-		(pin "3"
-			(uuid "552a4e03-c7aa-4223-be84-b46fffbf08ef")
-		)
-		(instances
-			(project ""
-				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "NT2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8089,7 +8186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f818be-268c-4fe5-9818-b414008ef29b")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 44.196 193.802 0)
 			(effects
 				(font
@@ -8147,7 +8244,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab40fc63-6680-47c8-839a-b2a7a65a3aa0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR038"
 			(at 273.05 107.95 0)
 			(effects
 				(font
@@ -8213,7 +8310,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR025")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8297,7 +8394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0d4a076-a0aa-45f1-8d9d-b7648d624511")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 119.38 66.294 90)
 			(effects
 				(font
@@ -8313,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 71.628 90)
 			(effects
 				(font
@@ -8349,7 +8446,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b202c3ab-5f37-451e-8a38-55305169bb1e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 218.44 80.01 0)
 			(effects
 				(font
@@ -8415,74 +8512,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 66.04 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3ffda88-e41f-42cf-b570-a3c1880e7b34")
-		(property "Reference" "FB2"
-			(at 70.358 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 73.914 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.818 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff216582-93f1-48fc-9f9b-5d5085608b16")
-		)
-		(pin "1"
-			(uuid "085e6dcb-09fc-4ebd-a3a8-27be500a73b4")
-		)
-		(instances
-			(project "puntodroid-adas"
-				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "FB2")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8498,7 +8528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b649d846-f635-420b-8fd2-fc431a003573")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR033"
 			(at 231.14 129.54 0)
 			(effects
 				(font
@@ -8548,7 +8578,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR056")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8556,7 +8586,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 279.4 57.15 0)
+		(at 279.4 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8564,8 +8594,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e2efdd-70fc-41f5-82e2-d714559739fd")
-		(property "Reference" "#PWR027"
-			(at 279.4 60.96 0)
+		(property "Reference" "#PWR039"
+			(at 279.4 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8604,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 279.4 52.07 0)
+			(at 279.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8582,7 +8612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 57.15 0)
+			(at 279.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 57.15 0)
+			(at 279.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 279.4 57.15 0)
+			(at 279.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8644,75 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR027")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 204.47 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b86d3f92-177d-40ef-bc04-5b6d721e02e1")
+		(property "Reference" "NT1"
+			(at 204.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIDEO_GND_NETTIE"
+			(at 204.47 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Footprints:NetTie-2x"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17a52325-999e-46cd-a834-4f324ce6e28c")
+		)
+		(pin "1"
+			(uuid "3a7efa88-178c-44ab-9db2-90d5052ee9ce")
+		)
+		(instances
+			(project ""
+				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba5994fe-8fc9-496c-8b34-2c85ac21e4d5")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 299.212 60.198 90)
 			(effects
 				(font
@@ -8645,7 +8743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 299.72 66.548 90)
 			(effects
 				(font
@@ -8681,7 +8779,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe3dcc9-f730-47ab-8a93-974551627cf0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR019"
 			(at 64.77 190.5 0)
 			(effects
 				(font
@@ -8747,7 +8845,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR049")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8763,7 +8861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7752e5-3d5d-45a9-8ea8-153d349cb972")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR023"
 			(at 109.22 157.48 0)
 			(effects
 				(font
@@ -8813,7 +8911,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR050")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8829,7 +8927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce81c9ab-0c97-4442-a477-fc5ffce37023")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR018"
 			(at 60.96 219.71 0)
 			(effects
 				(font
@@ -8879,7 +8977,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR052")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9048,7 +9146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d57ac2c1-f5ac-4773-a5e7-b47fe534c649")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -9098,7 +9196,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9113,7 +9211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d635f116-2494-402f-bc63-a6cf9e77bbce")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 255.27 49.53 90)
 			(effects
 				(font
@@ -9129,7 +9227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.27 55.118 90)
 			(effects
 				(font
@@ -9165,7 +9263,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9173,7 +9271,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 66.04 121.92 0)
+		(at 199.39 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9181,8 +9279,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98a015d-281e-47d9-a6e1-8b20ec7f3aa3")
-		(property "Reference" "#PWR029"
-			(at 66.04 128.27 0)
+		(property "Reference" "#PWR028"
+			(at 199.39 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,7 +9289,7 @@
 			)
 		)
 		(property "Value" "GNDV"
-			(at 66.04 127 0)
+			(at 199.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 121.92 0)
+			(at 199.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 121.92 0)
+			(at 199.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 66.04 121.92 0)
+			(at 199.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9329,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9246,7 +9344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df6f249b-442b-4ff8-b712-af2469f84b95")
-		(property "Reference" "R25"
+		(property "Reference" "R11"
 			(at 117.094 163.068 0)
 			(effects
 				(font
@@ -9262,7 +9360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.428 163.83 90)
 			(effects
 				(font
@@ -9298,7 +9396,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R25")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9306,7 +9404,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 58.42 119.38 0)
+		(at 212.09 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9314,8 +9412,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44435ef-4642-4369-8d0a-2552b46a3116")
-		(property "Reference" "#PWR023"
-			(at 58.42 125.73 0)
+		(property "Reference" "#PWR030"
+			(at 212.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +9422,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 58.42 124.46 0)
+			(at 212.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 119.38 0)
+			(at 212.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 119.38 0)
+			(at 212.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 58.42 119.38 0)
+			(at 212.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9462,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9379,7 +9477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e604f21b-ea34-47ee-897a-a01b97a23a67")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 225.806 118.364 0)
 			(effects
 				(font
@@ -9395,7 +9493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 232.1052 123.19 0)
 			(effects
 				(font
@@ -9431,7 +9529,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9446,7 +9544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea3917e9-96a1-4b15-be43-5eed20456805")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 119.38 59.69 90)
 			(effects
 				(font
@@ -9462,7 +9560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 65.278 90)
 			(effects
 				(font
@@ -9498,7 +9596,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed998870-8298-48d3-ade4-cfaa766057e0")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 236.22 118.364 0)
 			(effects
 				(font
@@ -9529,7 +9627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 242.2652 123.19 0)
 			(effects
 				(font
@@ -9565,7 +9663,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1456f64-e192-42c6-a0fd-5bff4ff5171c")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -9596,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 77.47 76.2 0)
 			(effects
 				(font
@@ -9674,7 +9772,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9689,7 +9787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6478319-f57e-414f-9378-dd94f549648e")
-		(property "Reference" "R26"
+		(property "Reference" "R12"
 			(at 132.334 174.752 90)
 			(effects
 				(font
@@ -9705,7 +9803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 132.08 177.292 90)
 			(effects
 				(font
@@ -9741,7 +9839,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "R26")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9757,7 +9855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde68e9a-bffd-4a12-bcf0-2c0e2d61fe89")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR036"
 			(at 251.46 119.38 0)
 			(effects
 				(font
@@ -9807,7 +9905,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/aecbce2e-c462-47bf-9d56-593a347ba1f4"
-					(reference "#PWR055")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

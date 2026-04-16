@@ -1182,7 +1182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "097f8179-42e0-41d2-80d0-1a4a9b94b15e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR085"
 			(at 54.61 43.18 0)
 			(effects
 				(font
@@ -1232,7 +1232,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/c7f6453c-9930-4ee9-995f-ac357768c1b9"
-					(reference "#PWR061")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1248,7 +1248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18f25760-a6a0-491e-b00b-df2a47da493b")
-		(property "Reference" "C26"
+		(property "Reference" "C31"
 			(at 49.784 32.258 0)
 			(effects
 				(font
@@ -1264,7 +1264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 55.5752 29.21 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/c7f6453c-9930-4ee9-995f-ac357768c1b9"
-					(reference "C26")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -1316,7 +1316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4e19d4-d0ba-471f-b1ab-1e4388027bca")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 65.6433 39.37 0)
 			(effects
 				(font
@@ -1334,7 +1334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Module:HOPERF_RFM69HW"
 			(at -20.32 12.7 0)
 			(effects
 				(font
@@ -1412,7 +1412,7 @@
 		(instances
 			(project ""
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/c7f6453c-9930-4ee9-995f-ac357768c1b9"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.09 33.02 0)
 			(effects
 				(font
@@ -1495,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e93ff73b-e331-4775-adac-0054c7984d80")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR087"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -1545,7 +1545,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/c7f6453c-9930-4ee9-995f-ac357768c1b9"
-					(reference "#PWR059")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1561,7 +1561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce012e2-8d9d-42e1-8abf-571e0a242d38")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR086"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -1611,7 +1611,7 @@
 		(instances
 			(project "puntodroid-adas"
 				(path "/427bbe6b-ed35-4841-963c-5b19708bc81b/c7f6453c-9930-4ee9-995f-ac357768c1b9"
-					(reference "#PWR060")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
